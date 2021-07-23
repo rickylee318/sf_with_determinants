@@ -1,0 +1,8 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+4SFwD.egg-info/PKG-INFO
+4SFwD.egg-info/SOURCES.txt
+4SFwD.egg-info/dependency_links.txt
+4SFwD.egg-info/top_level.txt

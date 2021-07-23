@@ -1,15 +1,31 @@
-### 4 component stochastic frontier with determinants of inefficiencies
-===========================================================
+# SF4wD #
 
-#### Intro: The model includes long-term, short-term inefficiency and firm heterognenity. Moreover, we incorporate factors to explain both persistent and transient technical ineﬃciencies
+four-component stochastic frontier model with determinants
 
----------------------------------------
+## Motivation ##
 
-#### Method:
-- data augmentation: sf_with_panel.py (set estimator='data augmentation')
-- PMCMC (particle Markov chain Monte Carlo): sf_with_panel.py (set estimator = 'PMCMC')
-- PMCMC (particle Markov chain Monte Carlo) spped up with GPU: sf_with_panel_gpu.py
-- two-step estimator: sf_with_panel_tk.py
+This package was developed to complement four-component stochastic frontier that consider 
+
+determinants in mean and variance parameters of inefficiency distributions 
+
+by Ruei-Chi Lee. 
+
+## Features ##
+
+* **SF4wD**: main.py - set method and model to run simulation or real data
+
+* **HMC**: Hamilton Monte Carlo designed for determinants parameters. 
+
+* **DA**: Data augmentation for the model
+
+* **TK**: Two-parametrization method originally proposed by Tsiona and Kunmbhaker (2014) for four-component model without determinants. 
+
+* **PMCMC**: Particle MCMC for the model (perferred approach) - speed up by GPU parallel computation
 
 
+## License ##
 
+Ruei-Chi Lee is the main author and contributor.
+
+Bug reports, feature requests, questions, rants, etc are welcome, preferably 
+on the github page. 
