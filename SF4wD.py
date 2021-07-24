@@ -52,7 +52,11 @@ class SF4wD():
         start = timeit.default_timer()
         #data
         if data_name =="":
-            y,x,w,pi = Data().simulate(N=100,T=10)
+            if self.N == None:
+                N = 100
+            if self.T == None:
+                T = 10
+            y,x,w,pi = Data().simulate(N,T)
         else:
             transient_determinants = ['ROA']
             persistent_determinants = ['E/A']
