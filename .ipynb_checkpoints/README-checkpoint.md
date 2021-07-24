@@ -40,7 +40,7 @@ import SF4wD
 
 my_model = SF4wD(model='D',method='PMCMC')
 my_model.run()
-
+```
 
 
 
