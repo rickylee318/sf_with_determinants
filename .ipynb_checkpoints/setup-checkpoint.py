@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='4SFwD', # 
-    version="0.0.1",
+    version="0.0.2",
     author='Ruei-Chi Lee',
     author_email='axu3bjo4fu6@gmail.com',
     description='four component stochastic frontier model with determinants',
